@@ -38,7 +38,7 @@ class ScraperConfig:
     cache_max_age: int
 
 class OpenInsiderScraper:
-    def __init__(self, config_path: str = 'config.yaml'):
+    def __init__(self, config_path: str = 'output.yaml'):
         self.config = self._load_config(config_path)
         self._setup_logging()
         self._setup_directories()

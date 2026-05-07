@@ -1,0 +1,25 @@
+cache:
+  directory: .cache
+  enabled: true
+  max_age: 24
+filters:
+  exclude_companies: []
+  include_companies: []
+  min_shares_traded: 0
+  min_transaction_value: 500000
+  transaction_types: P
+logging:
+  file: openinsider.log
+  level: INFO
+  max_log_size: 10
+  rotate_logs: true
+output:
+  directory: data
+  filename: insider_trades.csv
+  format: csv
+scraping:
+  max_workers: 10
+  retry_attempts: 3
+  start_month: 1
+  start_year: 2026
+  timeout: 30
