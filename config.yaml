@@ -1,3 +1,4 @@
+# git test
 # Basic Settings
 output:
   directory: "data"
@@ -7,7 +8,7 @@ output:
 # Scraping Settings
 scraping:
   start_year: 2026  # From which year should data be retrieved
-  start_month: 3    # From which month in start_year
+  start_month: 1    # From which month in start_year
   max_workers: 10   # Number of parallel downloads
   retry_attempts: 3 # Number of retry attempts on errors
   timeout: 30       # Timeout in seconds for HTTP requests
