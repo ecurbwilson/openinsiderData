@@ -20,6 +20,6 @@ output:
 scraping:
   max_workers: 10
   retry_attempts: 3
-  start_month: 1
+  start_month: 4
   start_year: 2026
   timeout: 30
